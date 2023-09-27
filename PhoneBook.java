@@ -38,6 +38,8 @@ public class PhoneBook {
             System.out.println("Введите количество пользователей которых хотите добавить!");
             Integer current = re.nextInt();
             PhoneBook.writePhonebook(current);
+        }else{
+            System.out.println("Введен неправильный оператор действия!");
         }
     }
 }
