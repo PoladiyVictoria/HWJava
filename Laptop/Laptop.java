@@ -11,11 +11,11 @@ public class Laptop {
 
     @Override
     public String toString() {
-        return "Laptop(" + "brand " + brand +  
+        return "brand " + brand +  
                 ", ram " + ram + 
                 ", disk " + disk +
                 ", os " + os +
-                ", color " + color + ")";
+                ", color " + color;
 
     }
 
